@@ -16,7 +16,7 @@ public class NoteBook implements android.provider.BaseColumns {
 
     public static final String COLUMN_NAME_GUID = "guid";
     public static final String COLUMN_NAME_NAME = "name";
-    public static final String COLUMN_NAME_UPDATe_SEQUENCE_NUM = "updateSequenceNum";
+    public static final String COLUMN_NAME_UPDATE_SEQUENCE_NUM = "updateSequenceNum";
     public static final String COLUMN_NAME_DEFAULT_NOTEBOOK = "defaultNotebook";
     public static final String COLUMN_NAME_SERVICE_CREATED = "serviceCreated";
     public static final String COLUMN_NAME_SERVICE_UPDATED = "serviceUpdated";
