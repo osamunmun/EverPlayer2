@@ -9,7 +9,7 @@ import java.security.Timestamp;
 import java.util.List;
 
 public class Note implements BaseColumns {
-    public static final String NOTEBOOK_TABLE_NAME = "note";
+    public static final String NOTE_TABLE_NAME = "note";
 
     public static final String COLUMN_NAME_GUID = "guid";
     public static final String COLUMN_NAME_TITLE = "title";
