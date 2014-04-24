@@ -23,10 +23,10 @@ public class NoteOpenHelper extends SQLiteOpenHelper {
                     Note.COLUMN_NAME_ACTIVE + " NUMERIC," +
                     Note.COLUMN_NAME_UPDATE_SEQUENCE_NUM + " INTEGER," +
                     Note.COLUMN_NAME_NOTEBOOK_GUID + " TEXT," +
-                    Note.COLUMN_NAME_TAG_GUIDS + " BLOG," +
-                    Note.COLUMN_NAME_RESOURCES + " BLOG," +
-                    Note.COLUMN_NAME_ATTRIBUTES + " BLOG," +
-                    Note.COLUMN_NAME_TAG_NAMES + " BLOG);";
+                    Note.COLUMN_NAME_TAG_GUIDS + " BLOB," +
+                    Note.COLUMN_NAME_RESOURCES + " BLOB," +
+                    Note.COLUMN_NAME_ATTRIBUTES + " BLOB," +
+                    Note.COLUMN_NAME_TAG_NAMES + " BLOB);";
 
     private static final String NOTE_TABLE_DELETE =
             "DROP TABLE IF EXISTS " + Note.NOTE_TABLE_NAME;
