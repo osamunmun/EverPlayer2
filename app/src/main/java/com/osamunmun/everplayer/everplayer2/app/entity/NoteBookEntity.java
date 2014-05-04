@@ -11,7 +11,7 @@ import com.evernote.edam.type.User;
 import java.sql.Timestamp;
 import java.util.List;
 
-public class NoteBook implements android.provider.BaseColumns {
+public class NoteBookEntity implements android.provider.BaseColumns {
     public static final String NOTEBOOK_TABLE_NAME = "notebook";
 
     public static final String COLUMN_NAME_GUID = "guid";

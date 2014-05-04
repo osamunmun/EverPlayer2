@@ -8,7 +8,7 @@ import com.evernote.edam.type.Resource;
 import java.security.Timestamp;
 import java.util.List;
 
-public class Note implements BaseColumns {
+public class NoteEntity implements BaseColumns {
     public static final String NOTE_TABLE_NAME = "note";
 
     public static final String COLUMN_NAME_GUID = "guid";
